@@ -1,0 +1,23 @@
+{
+  "name": "business-and-directory-listing-website",
+  "version": "1.0.0",
+  "description": "Business & Directory listing website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss build ./src/input.css -o ./dist/output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdmuradhossain/business-directory-listing.git"
+  },
+  "author": "Md Murad Hossain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdmuradhossain/business-directory-listing/issues"
+  },
+  "homepage": "https://github.com/mdmuradhossain/business-directory-listing#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
